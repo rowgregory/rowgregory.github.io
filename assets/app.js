@@ -1,12 +1,10 @@
 $(document).ready(function () {
 
-      
-
     $('.takeMeTo').on('click', function(e) {
         console.log("clicked");
         e.preventDefault();
     
-         setTimeout("location.href = 'https://rowgregory.github.io/Responsive-portfolio/portfolio.html';", 4000);     
+         setTimeout("location.href = 'https://rowgregory.github.io/Responsive-portfolio/portfolio.html';", 2600);     
     })
     
     var relativeOffset = anime.timeline({
