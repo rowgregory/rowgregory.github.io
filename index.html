@@ -1,84 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Materialize CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> -->
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--Materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 
-<svg id="introBox" viewBox="0 0 100 100" preserveAspectRatio="xMaxYMin meet" style="border:2px solid blue"
+    <title>Intro Button</title>
 
-xmlns="http://www.w3.org/2000/svg" version="1.1"
-xmlns:xlink="http://www.w3.org/1999/xlink">
+</head>
+<body>
+    
 
-<!-- <path stroke="red" stroke-width=".2" fill="green" d="M0 10 H0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M0 20 H0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M0 30 H0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M0 40 H0 150"></path>
 
-<path stroke="red" stroke-width=".2" fill="green" d="M10 0 V0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M20 0 V0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M30 0 V0 150"></path>
-<path stroke="red" stroke-width=".2" fill="green" d="M40 0 V0 150"></path> -->
+<svg id="introBox" viewBox="0 0 100 100" preserveAspectRatio="xMaxYMin meet"
+
+    xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
 
 
 
-<circle cx="50" cy="50" r="40" style="stroke:rgb(35, 35, 121); fill:none; stroke-dasharray: 45 50" stroke-width="2" id="largeOuterCircle"></circle>
-<circle cx="50" cy="50" r="35" style="stroke: rgb(62, 101, 209); fill:none; stroke-dasharray: 110 50" stroke-width="3" id=largeOuterCircle2></circle>
-<circle cx="50" cy="50" r="30" style="stroke: rgb(63, 99, 197); fill:none; stroke-dasharray: 110 50" stroke-width="2" id=largeOuterCircle3></circle>
+<circle cx="50" cy="50" r="40" style="stroke:rgb(72, 72, 138); fill:none; stroke-dasharray: 45 50" stroke-width="2" id="largeOuterCircle"></circle>
+<circle cx="50" cy="50" r="35" style="stroke: rgb(90, 116, 190); fill:none; stroke-dasharray: 110 50" stroke-width="3" id=largeOuterCircle2></circle>
+<circle cx="50" cy="50" r="30" style="stroke: rgb(103, 123, 180); fill:none; stroke-dasharray: 110 50" stroke-width="2" id=largeOuterCircle3></circle>
 <circle cx="50" cy="50" r="25" style="stroke: rgb(127, 187, 214); fill:none; stroke-dasharray: 40 50" stroke-width="4" id=largeOuterCircle4></circle>
-<circle cx="50" cy="50" r="20" style="stroke: rgb(148, 218, 185); fill:none; stroke-dasharray: 110 50" stroke-width="1" id=largeOuterCircle5></circle>
-<circle cx="50" cy="50" r="15" style="stroke: rgb(150, 219, 143); fill:none; stroke-dasharray: 80 50" stroke-width="1" id=largeOuterCircle6></circle>
+<circle cx="50" cy="50" r="20" style="stroke: rgb(172, 235, 206); fill:none; stroke-dasharray: 110 50" stroke-width="1" id=largeOuterCircle5></circle>
+<circle cx="50" cy="50" r="15" style="stroke: rgb(208, 248, 203); fill:none; stroke-dasharray: 80 50" stroke-width="1" id=largeOuterCircle6></circle>
+<circle cx="50" cy="50" r="12.5" style="stroke: rgb(195, 229, 252); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle65></circle>
+<circle cx="50" cy="50" r="10" style="stroke: rgb(138, 176, 201); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle7></circle>
 
 
 
 
 </svg>
 
+<div class="containThatWelcome ">
+    
+    <button  type="submit" class="takeMeTo animated rotateIn"><a href="portfolio.html">
+        <div class="letters w">w</div>
+        <div class="letters e1">e</div>
+        <div class="letters l">l</div>
+        <div class="letters c">c</div>
+        <div class="letters o">o</div>
+        <div class="letters m">m</div>
+        <div class="letters e2">e</div>
+    </a></button>
+</div>
+
 <style>
-#largeOuterCircle {
-    animation:rotate infinite 7.3s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate {
-    0%{transform:rotate(360deg)}
-}
+    #largeOuterCircle {
+        animation:rotate infinite 7.3s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate {
+        0%{transform:rotate(360deg)}
+    }
 
 
-#largeOuterCircle2 {
-    animation:rotate2 infinite 6s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate2 {
-    0%{transform:rotate(-360deg)}
-}
+    #largeOuterCircle2 {
+        animation:rotate2 infinite 6s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate2 {
+        0%{transform:rotate(-360deg)}
+    }
 
 
-#largeOuterCircle3 {
-    animation:rotate3 infinite 4s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate3 {
-    0%{transform:rotate(360deg)}
-}
+    #largeOuterCircle3 {
+        animation:rotate3 infinite 4s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate3 {
+        0%{transform:rotate(360deg)}
+    }
 
 
-#largeOuterCircle4 {
-    animation:rotate4 infinite 4.4s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate4 {
-    0%{transform:rotate(-360deg)}
-}
+    #largeOuterCircle4 {
+        animation:rotate4 infinite 4.4s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate4 {
+        0%{transform:rotate(-360deg)}
+    }
 
-#largeOuterCircle5 {
-    animation:rotate5 infinite 5.5s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate5 {
-    0%{transform:rotate(360deg)}
-}
+    #largeOuterCircle5 {
+        animation:rotate5 infinite 5.5s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate5 {
+        0%{transform:rotate(360deg)}
+    }
 
-#largeOuterCircle6 {
-    animation:rotate6 infinite 3.2s linear;
-    transform-origin: 50% 50%;
-}
-@keyframes rotate6 {
-    0%{transform:rotate(-360deg)}
-}
+    #largeOuterCircle6 {
+        animation:rotate6 infinite 3.2s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate6 {
+        0%{transform:rotate(-360deg)}
+    }
+    #largeOuterCircle65 {
+        animation:rotate65 infinite 7s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate65 {
+        0%{transform:rotate( 360deg)}
+    }
 
+    #largeOuterCircle7 {
+        animation:rotate7 infinite 7s linear;
+        transform-origin: 50% 50%;
+    }
+    @keyframes rotate7 {
+        0%{transform:rotate( -360deg)}
+    }
+
+    .takeMeTo{
+    background: #234;
+    border:none;
+    float:right;
+    background: transparent;
+    font-size:4vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    
+    
+}
+.w{
+    float:left;
+    color:rgb(67, 92, 133);
+}
+.e1{
+    float:left;
+    color:rgb(90, 122, 172);
+}
+.l{
+    float:left;
+    color:rgb(123, 163, 226);
+}
+.c{
+    float:left;
+    color:rgb(165, 170, 238);
+}
+.o{
+    float:left;
+    color:rgb(146, 152, 235);
+}
+.m{
+    float: left;
+    color:rgb(111, 118, 209);
+}
+.e2{
+    float:left;
+    color:rgb(135, 142, 240);
+}
+.containThatWelcome{
+    display:flex;
+    justify-content: center;
+    margin-top:-53vw;
+}
+    
 </style>
+<script>
+    $(document).ready(function () {
+
+      
+
+$('.takeMeTo').on('click', function(e) {
+    console.log("clicked");
+    e.preventDefault();
+
+     setTimeout("location.href = 'https://rowgregory.github.io/Responsive-portfolio/portfolio.html';", 4000);     
+})
+
+var relativeOffset = anime.timeline({
+    autoplay:false
+})
+
+relativeOffset
+
+    .add({
+        targets: 'div.w',
+        // rotate:[
+        //     {value:'4turn', duration: 2000}
+        // ],
+        translateX: [
+            { value: -200, duration: 1000,},
+            {value: -400, duration: 700,delay:200,}
+            ],
+        translateY: [
+            { value: -300, duration: 800, delay: 700,},
+            { value: 1000, duration:8000, delay:400,}
+            ],
+        complete: function() {
+            $('div.w').hide();
+        }
+    })
+    .add({
+        targets: 'div.e1',
+        offset:'-=9900',
+        translateY:[
+            {value: 100, duration:500},
+            {value:-250, duration:800, delay: 600,}
+        ],
+        
+        translateX:[
+            {value:200, duration:500, delay:510,},
+            { value: -1000, duration:8000, delay:720,}
+        ]
+
+    })
+    .add({
+        targets: 'div.l',
+        offset:'-=9900',
+        translateX:[
+            {value:-170, duration:500,},
+            { value: 500, duration:2000, delay:620,}
+        ],
+        translateY:[
+            {value: 100, duration:500, delay:500},
+            {value:750, duration:3000, delay: 900,}
+        ], 
+        complete: function() {
+            $('div.l').hide();
+        }
+    })
+
+    .add({
+        targets: 'div.c',
+        offset:'-=9900',
+        translateY:[
+            {value:-300, duration:1000,},
+            {value:130, duration:500,delay:500,}
+        ], 
+          translateX:[
+              {value:-300, duration:500,delay:800,},
+            { value: 700, duration:7000, delay:620,}
+          ],
+          complete: function() {
+            $('div.c').hide();
+        }
+    })
+    .add({
+        targets: 'div.o',
+        offset:'-=9900',
+        translateY:[
+            {value:-75, duration:800,},
+            {value:130, duration:1000,delay:300,},
+            {value: -600, duration:2500, delay:300, },
+        ], 
+        translateX:[
+            {value:-350, duration:1500,delay:2000,},
+            // { value: 700, duration:7000, delay:620,}
+        ],
+        complete: function() {
+            $('div.o').hide();
+        }
+        
+    })
+    .add({
+        targets: 'div.m',
+        offset:'-=9900',
+        translateX:[
+            {value:200, duration:700,},
+            { value: -800, duration:7000, delay:620,}
+        ],
+        translateY:[
+            {value:-75, duration:800,delay:400,},
+        ], 
+        
+        complete: function() {
+            $('div.m').hide();
+        }
+        
+    })
+    .add({
+        targets: 'div.e2',
+        offset:'-=9900',
+        translateY:[
+            {value:230, duration:800,},
+            {value:-800, duration:2000, delay:600,},
+        ], 
+        translateX:[
+            {value:200, duration:700,delay:300,},
+            // { value: -800, duration:7000, delay:620,}
+        ],
+        
+        
+        complete: function() {
+            $('div.m').hide();
+        }
+        
+    })
+
+    document.querySelector('.takeMeTo').onclick = relativeOffset.restart;
+    $('#largeOuterCircle65').hide();
+    $('#largeOuterCircle7').hide();
+    $('.takeMeTo').hover(function() {
+        $('#largeOuterCircle7').toggle();
+        $('#largeOuterCircle65').toggle();
+    })
+})
+
+   
+</script>
+
+<!--Anime.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+<!--my js-->
+<script src="assets/app.js"></script>
+</body>
+</html>
+
