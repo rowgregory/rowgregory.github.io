@@ -4,7 +4,7 @@ $(document).ready(function () {
         console.log("clicked");
         e.preventDefault();
     
-         setTimeout("location.href = 'https://rowgregory.github.io/Responsive-portfolio/portfolio.html';", 2600);     
+         setTimeout("location.href = 'https://rowgregory.github.io/portfolio2.0';", 2600);     
     })
     
     var relativeOffset = anime.timeline({
