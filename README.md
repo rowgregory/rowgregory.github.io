@@ -1,16 +1,14 @@
 # Word Guess Game
 
- * This is a welcome screen that takes you to my portfolio
-
-
+ * This is a welcome screen that takes you to my portfolio, just click on the welcome!
 
 ## Visit live
 
- * [Word Guess Game](https://rowgregory.github.io)
+ * [Portfolio](https://rowgregory.github.io)
      
 ## Demo Videos
 
- * ![](assets/images/Sonic-Word-Guess.gif?raw=true)
+ * ![](assets/images/introButton.gif?raw=true)
  
 ## Technologies Used
 
@@ -18,6 +16,7 @@
  * CSS
  * JavaScript
  * jQuery
+ * Materialize
  * Anime.js
  * SVG
  * Animate.css
