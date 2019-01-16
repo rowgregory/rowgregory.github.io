@@ -1,58 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+    <!--CSS Reset-->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <!--Local CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--jQuery-->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!--Animate CSS-->
-    <link rel="stylesheet" href="assets/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!--Materialize Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Materialize.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-    <title>Intro Button</title>
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>newest portfolio</title>
+
 </head>
 
+
+
 <body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    <div class="container-fluid space">
+        <h1 class="animated slideInDown">Hello, I'm<span>Gregory Row</span></h1>
+        <h3>I'm a web developer</h3>
+        <h6><a class="button" href="#aboutScroll">View my work<i class="fa fa-arrow-right"></i></a></h6>
+    </div>
+    <div class="blueLine  "></div>
+    <ul class="">
+        <li>
+            <a class="btn">&#9776;</a>
+            <ul class="menu">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutScroll">About</a>
+                </li>
+                <li>
+                    <a href="#portWork">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="blueLine  "></div>
+    <div class="row section scrollspy">
+        <div class="container " id="about">
+            <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" id="aboutScroll">About</h2>
+
+            <br>
+            <div class="col s12 m6 image">
+                <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" src="assets/images/Me2.jpg">
+                <p data-aos="flip-right" data-aos-duration="1500" data-aos-easing="linear" class="flow-text">Full stack web developer with a desire to change the world with technology.  An organized and creative individual who seeks employment as an entry level Software Engineer to utilize their skills in designing software applications. Quickly learns new technologies, successfully working in both team and self-directed settings.
+                </p>
+            </div>
+            <div class="col s12 m6 skillSet">
+                <h4>Skills</h4>
+                <ul class="col m6 offset-m3 l4 offset-l4 xl4 offset-xl4 text" id="skillList">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">HTML</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">CSS</p>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Javascript</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">jQuery</p>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Anime.js</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">MySQL</p>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Mongo.db</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">Express</p>
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">React.js</p>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">Node.js</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container projects ">
+        <h2 class="prjt " id="portWork">Projects</h2>
+
+        <div class="row section scrollspy">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-down">
+
+                <div class="card " >
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/sonic_wallpaper.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Word
+                            Guess
+                            Game
+                            <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="http://rowgregory.github.io/Word-Guess-Game/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Word-Guess-Game">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Word Guess Game
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Enjoy a Sonic the Hedgehog themed hangman-like game where you guess Sonic's favorite games
+                            and
+                            characters over the years!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-left">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/dino3D2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Crystal Collector<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="http://rowgregory.github.io/Crystal-Collector">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Crystal-Collector">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bone Collector
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Click on the screen and try to match the number generated with your random clicking! Win by
+                            matching
+                            the generated number!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">Animate.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/lost_wallpaper.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Trivia
+                            Game<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="http://rowgregory.github.io/Trivia-Game/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Trivia-Game">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">LOST series trivia game
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>If you've enjoyed the LOST series than this is the trivia game for you. Race the clock as
+                            you
+                            try and answer ten questions correctly!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">Animate.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/colorful_wallpaper.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">gifTastic<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="http://rowgregory.github.io/gifTastic/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/gifTastic">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">get Giphy!
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Enjoy exploring your favorite giphs. Then come back later to see your favorites!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">Animate.css</li>
+                            <li class="collection-item">AJAX</li>
+                            <li class="collection-item">Giphy API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-down">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/train_1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Train
+                            Scheduler<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="http://rowgregory.github.io/Train-Scheduler/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Train-Scheduler">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Train Scheduler
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This app calculates your train's next arrival time!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">Moment.js</li>
+                            <li class="collection-item">Firebase</li>
+                            <li class="collection-item">Animate.css</li>
+                            <li class="collection-item">Materialize.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-left">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/galaxy1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">RockIT<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://rowgregory.github.io/RockIT/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/RockIT">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">RockIt
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Search all over the world with this unique app!</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">HTML</li>
+                            <li class="collection-item">CSS</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">Animate.css</li>
+                            <li class="collection-item">AJAX</li>
+                            <li class="collection-item">Bands In Town API</li>
+                            <li class="collection-item">Open Weather Map API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/liri_screenshot.PNG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">LIRI
+                            Bot<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://github.com/rowgregory/liri-node-app">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">LIRI bot
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This app is a language interpretation and recognition interface. Liri will be a command line
+                            node
+                            app that takes in parameters and gives you back data</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/constructor.PNG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Constructor
+                            Word Guess<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://github.com/rowgregory/liri-node-app">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Constructor Word Guess
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Constructor Word Guess is a command line node app similar to Hangman.</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-down">
+                <div class="card bamazon">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/bamazon.PNG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Bamazon<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://github.com/rowgregory/Bamazon">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bamazon
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This app is an Amazon-like storefront using MySQL. The app will take in orders from
+                            customers and deplete stock from the store's inventory.</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">SQL</li>
+                            <li class="collection-item">MYSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-left">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/china.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Friend
+                            Finder<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://friendfindergr.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/liri-node-app">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Friend Finder
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Friend Finder is a compatibility-based "FriendFinder" application -- basically a dating app.</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">HTML/CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/x2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Ride
+                            Da Coaster<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://salty-castle-44301.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Eat-Da-Burger">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bamazon
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This is a coaster logger with MySQL, Node, Express, Handlebars and a homemade ORM (cool!).</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">SQL</li>
+                            <li class="collection-item">MYSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/OSG.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">OSG<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://guarded-brook-39649.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/ProjectDeux">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">OSG
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>OSG (open source games) allows you to play a single player trivia game. It incorporates a
+                            page where the user is allowed to submit their own trivia question, which then has to be
+                            approved by the admins.</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">jQuery</li>
+                            <li class="collection-item">HTML/CSS</li>
+                            <li class="collection-item">Handlebars</li>
+                            <li class="collection-item">MySQL</li>
+                            <li class="collection-item">Bootstrap</li>
+                            <li class="collection-item">Anime.js</li>
+                            <li class="collection-item">Animate.css</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-down-right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/tornado.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">News-Scrape
+                            <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://newsscrapegr.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/News-Scrape">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">News-Scrape
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This is a a full stack app that scrapes articles from the New York Times science section.
+                            Users can then write notes for each saved article</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">MongoDB</li>
+                            <li class="collection-item">Express</li>
+                            <li class="collection-item">Axios</li>
+                            <li class="collection-item">Cheerio</li>
+                            <li class="collection-item">Handlebars</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l5" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/clicky-game.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Mario Memory<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://clickygamegr.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Clicky-Game">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mario Memory
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This game is a Mario themed memory game. Click all twelve cards once and you win. Click any card twice and you start over. Have fun!.</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Reawct.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">HTML/CSS</li>
+                            <li class="collection-item">Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l5 offset-l1" data-aos="fade-down-right">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/Plexx.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 sonic" style="font-size:1.3em">Plexx
+                            <i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-action">
+                        <a class="_links" href="https://plexxgr.herokuapp.com/">Live Link</a>
+                        <a class="_links" href="https://github.com/rowgregory/Plexx">Repo Link</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Plexx
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This is a a full stack app that scrapes articles from the New York Times science section.
+                            Users can then write notes for each saved article</p>
+                        <ul class="collection with-header center-align">
+                            <li class="collection-header">
+                                <h4>Tech Used</h4>
+                            </li>
+                            <li class="collection-item">Node.js</li>
+                            <li class="collection-item">Javascript</li>
+                            <li class="collection-item">Phaser</li>
+                            <li class="collection-item">Express</li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
-<svg id="introBox" viewBox="0 0 100 100" preserveAspectRatio="xMaxYMin meet"
-
-    xmlns="http://www.w3.org/2000/svg" version="1.1"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-
-<circle cx="50" cy="50" r="40" style="stroke:rgb(72, 72, 138); fill:none; stroke-dasharray: 45 50" stroke-width="2" id="largeOuterCircle"></circle>
-<circle cx="50" cy="50" r="35" style="stroke: rgb(90, 116, 190); fill:none; stroke-dasharray: 110 50" stroke-width="3" id=largeOuterCircle2></circle>
-<circle cx="50" cy="50" r="30" style="stroke: rgb(103, 123, 180); fill:none; stroke-dasharray: 110 50" stroke-width="2" id=largeOuterCircle3></circle>
-<circle cx="50" cy="50" r="25" style="stroke: rgb(127, 187, 214); fill:none; stroke-dasharray: 40 50" stroke-width="4" id=largeOuterCircle4></circle>
-<circle cx="50" cy="50" r="20" style="stroke: rgb(172, 235, 206); fill:none; stroke-dasharray: 110 50" stroke-width="1" id=largeOuterCircle5></circle>
-<circle cx="50" cy="50" r="15" style="stroke: rgb(208, 248, 203); fill:none; stroke-dasharray: 80 50" stroke-width="1" id=largeOuterCircle6></circle>
-<circle cx="50" cy="50" r="12.5" style="stroke: rgb(195, 229, 252); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle65></circle>
-<circle cx="50" cy="50" r="10" style="stroke: rgb(138, 176, 201); fill:none; stroke-dasharray: 10 15;" stroke-width="1" id=largeOuterCircle7></circle>
-
-</svg>
-
-<div class="containThatWelcome ">
     
-    <button  type="submit" class="takeMeTo animated rotateIn"><a href="https://rowgregory.github.io/Portfolio/">
-        <div class="letters w">w</div>
-        <div class="letters e1">e</div>
-        <div class="letters l">l</div>
-        <div class="letters c">c</div>
-        <div class="letters o">o</div>
-        <div class="letters m">m</div>
-        <div class="letters e2">e</div>
-    </a></button>
+    <svg viewBox="0 0 268 141" data-aos="zoom-in-up">
+        <polygon class="st0" points="0,18.6 0,0.7 134,37.4 267.5,0.7 267.5,17.6 134,55.5" />
+        <polygon class="st0" points="0,44.6 0,26.7 134,63.4 267.5,26.7 267.5,43.6 134,81.5" />
+    </svg>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="page-footer">
+        <div class="container section scrollspy" id="contact">
+            <div class="row contactRow">
+                <h4 class=" white-text text-center myPages">Contact</h4>
+                <!-- <div class="col s12 offset-l1 "> -->
 
-</div>
+                <ul class="col s9 offset-s1 m8 offset-m2 l5 offset-l4 linkImages">
+                    <li>
+                        <a class="grey-text text-lighten-3" href="https://github.com/rowgregory">
+                            <i class="fa fa-github fa-4x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/gregory-row-8853b2161/">
+                            <i class="fa fa-linkedin-square  fa-4x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="https://rowgregory.github.io/">
+                            <i class="fa fa-sun-o  fa-4x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:rowgregory@gmail.com?Subject=Web%20Inquiry">
+                            <i class="fa fa-envelope fa-4x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
 
-<!--Anime.js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-<!--my js-->
-<script src="assets/app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="/path/to/noframework.waypoints.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
-</html>
 
+</html>
