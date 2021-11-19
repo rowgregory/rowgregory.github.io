@@ -20,26 +20,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Materialize.js-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <title>newest portfolio</title>
-
+  <title>Portfolio</title>
 </head>
-
-
 
 <body>
   <div class="stars"></div>
   <div class="twinkling"></div>
   <div class="clouds"></div>
   <div class="container-fluid space">
-    <h1 class="animated slideInDown">Hello, I'm<span>Gregory Row</span></h1>
-    <h3>I'm a web developer</h3>
-    <h6><a class="button" href="#aboutScroll">View my work<i class="fa fa-arrow-right"></i></a></h6>
+    <h1 class="animated slideInDown">Hello, I'm<span> Gregory Row</span></h1>
+    <h6><a class="view-project-btn" href="#portWork">View projects<i class="fa fa-arrow-right project-arrow"></i></a>
+    </h6>
   </div>
   <div class="blueLine  "></div>
-  <ul class="">
+  <ul id="navbarsticky">
     <li>
       <a class="btn">&#9776;</a>
       <ul class="menu">
@@ -65,7 +60,7 @@
 
       <br>
       <div class="col s12 m6 image">
-        <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" src="assets/images/Me2.jpg">
+        <img data-aos="flip-left" data-aos-duration="2000" data-aos-easing="linear" src="assets/images/me.jpeg">
         <p data-aos="flip-right" data-aos-duration="1500" data-aos-easing="linear" class="flow-text">Full stack
           developer with a passion for gaming and animations. Strong with the MERN stack and ready to take on
           any
@@ -77,24 +72,22 @@
         <ul class="col m6 offset-m3 l4 offset-l4 xl4 offset-xl4 text" id="skillList">
           <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">HTML</p>
           <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">CSS</p>
-          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Javascript</p>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">JavaScript</p>
           <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">jQuery</p>
-          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Anime.js</p>
-          <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">MySQL</p>
-          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Mongo.db</p>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">Mongo</p>
           <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">Express</p>
-          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">React.js</p>
-          <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">Node.js</p>
+          <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">React</p>
+          <p data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">Node</p>
         </ul>
       </div>
     </div>
   </div>
-  <div class="container projects ">
-    <h2 class="prjt " id="portWork">Projects</h2>
+  <div id="portWork"></div>
+  <div class="container project-container">
+    <h2>Projects</h2>
 
     <div class="row section scrollspy">
       <div class="col s12 m6 l5 offset-l1" data-aos="fade-down">
-
         <div class="card ">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/sonic_wallpaper.jpg">
@@ -591,30 +584,14 @@
       </div>
     </div>
   </div>
-
-
   <svg viewBox="0 0 268 141" data-aos="zoom-in-up">
     <polygon class="st0" points="0,18.6 0,0.7 134,37.4 267.5,0.7 267.5,17.6 134,55.5" />
     <polygon class="st0" points="0,44.6 0,26.7 134,63.4 267.5,26.7 267.5,43.6 134,81.5" />
   </svg>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   <footer class="page-footer">
     <div class="container section scrollspy" id="contact">
       <div class="row contactRow">
         <h4 class=" white-text text-center myPages">Contact</h4>
-        <!-- <div class="col s12 offset-l1 "> -->
-
         <ul class="col s9 offset-s1 m8 offset-m2 l5 offset-l4 linkImages">
           <li>
             <a class="grey-text text-lighten-3" href="https://github.com/rowgregory">
@@ -644,8 +621,6 @@
 
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- <script src="/path/to/noframework.waypoints.min.js"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script src="assets/javascript/game.js"></script>
 </body>
