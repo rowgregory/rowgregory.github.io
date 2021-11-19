@@ -1,0 +1,25 @@
+{
+  "name": "githubio",
+  "version": "1.0.0",
+  "description": "* Click the link to view all my work!",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node bin/build-start.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowgregory/rowgregory.github.io.git"
+  },
+  "author": "Gregory Row",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rowgregory/rowgregory.github.io/issues"
+  },
+  "homepage": "https://github.com/rowgregory/rowgregory.github.io#readme"
+}
