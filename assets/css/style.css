@@ -476,8 +476,11 @@ svg {
     -o-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358906/Daco_3084.png) repeat top center;
 
     background-size:cover;
+    -webkit-background-size:cover;
     background-attachment: scroll;
+    -webkit-background-attachment: scroll;
     background-position: center;
+    -webkit-background-position: center;
     margin:0;
     padding:0; 
 
