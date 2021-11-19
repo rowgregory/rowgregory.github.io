@@ -421,19 +421,19 @@ svg {
     to {background-position:10000px 0;}
 }
 @-webkit-keyframes move-clouds-back {
-    from {-webkit-background-position:0 0;}
-    to {-webkit-background-position:10000px 0;}
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
 }
 @-moz-keyframes move-clouds-back {
-    from {-moz-background-position:0 0;}
-    to {-moz-background-position:10000px 0;}
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
 }
 @-ms-keyframes move-clouds-back {
-    from {-ms-background-position: 0;}
-    to {-ms-background-position:10000px 0;}
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
 }
 
-.stars, .twinkling {
+.stars, .twinkling, .clouds {
   position:absolute;
   top:0;
   left:0;
@@ -443,18 +443,6 @@ svg {
   height:100%;
   display:block;
   z-index:-10 !important;
-}
-
-.clouds {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    display:block;
-    z-index: 10 !important;
 }
 
 .stars {
@@ -472,12 +460,23 @@ svg {
 }
 
 .clouds{
-    background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    /* background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
     -webkit-background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
     -moz-background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-    -o-background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    -o-background: url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center; */
+
+    /* background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358222/pngfind.com-cloud-png-611261.png) repeat top center;
+    -webkit-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358222/pngfind.com-cloud-png-611261.png) repeat top center;
+    -moz-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358222/pngfind.com-cloud-png-611261.png) repeat top center;
+    -o-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358222/pngfind.com-cloud-png-611261.png) repeat top center; */
+
+    background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358906/Daco_3084.png) repeat top center;
+    -webkit-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358906/Daco_3084.png) repeat top center;
+    -moz-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358906/Daco_3084.png) repeat top center;
+    -o-background: url(https://res.cloudinary.com/doyd0ewgk/image/upload/v1637358906/Daco_3084.png) repeat top center;
+
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     margin:0;
     padding:0; 
