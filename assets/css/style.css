@@ -197,7 +197,6 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    /* WebKit browsers */
     color: grey;
     opacity: 1 !important;
     text-indent: 10px;
@@ -322,9 +321,7 @@ ul li a:hover {
     }
 }
 
-.st0 {
-    fill: #00202A;
-}
+
 
 #name {
     margin-left: -2vw;
@@ -371,9 +368,7 @@ ul li a:hover {
     margin-bottom: 50px;
 }
 
-.st0 {
-    fill: #003150;
-}
+
 
 @media (max-width: 375px) {
     .button {
@@ -395,6 +390,9 @@ ul li a:hover {
 
 svg {
     padding-top: 200px;
+} 
+.st0 {
+    fill: #003150;
 }
 
 .fa-envelope {
